@@ -1,0 +1,11 @@
+# Analysis dependencies for the paper
+#   "A finite rate of force development as a candidate constraint on
+#    maximal running speed"
+#
+# Pinned to lower bounds rather than exact versions: every result in the paper
+# is closed-form algebra or a scalar root-find, so it is insensitive to patch
+# releases. Verified on Python 3.13.
+numpy>=1.24
+scipy>=1.10
+sympy>=1.12
+matplotlib>=3.7
