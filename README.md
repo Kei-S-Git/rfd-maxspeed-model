@@ -1,7 +1,8 @@
 # Analysis code for "A finite rate of force development as a candidate constraint on maximal running speed"
 
-This is the code and data availability package for the manuscript submitted to the
-*Journal of Experimental Biology* (Theory & Modelling).
+This is the code and data availability package for the manuscript of the same name.
+It is deliberately venue-neutral: the analysis, the figures, and the provenance of every
+number are the same whichever journal the manuscript is under.
 
 ## What this is
 
@@ -49,7 +50,7 @@ runs only the machine-checked claims, without drawing figures.
 | `src/external_validation.py` | The out-of-sample test: the four independent cohorts, the transfer of the structural assumptions, the refutation of a universal capacity parameter, and the `A ~ v^2.15` scaling. Produces Fig. 4. |
 | `src/robustness_analyses.py` | Sensitivity to contact length and to waveform asymmetry. Produces Fig. 5. |
 | `src/figure_scaling_law.py` | **Fig. 1**, drawn from the calibrated parameters. |
-| `src/figstyle.py` | Shared figure style enforcing the journal's requirements (≤180 mm wide, 300 dpi plus vector, 8 pt sans labels, 12 pt bold uppercase panel letters). |
+| `src/figstyle.py` | Shared figure style: ≤180 mm wide, 300 dpi plus vector, 8 pt sans labels, 12 pt bold uppercase panel letters. These are the settings the submitted figures were produced with; they satisfy the stricter of the limits considered and are not specific to one journal. |
 | `scripts/reproduce_paper1.py` | Runs all of the above in order and verifies that every figure was produced. |
 
 ## Claims that are machine-checked
